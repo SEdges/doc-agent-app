@@ -1,0 +1,31 @@
+# ==========================================
+# Joern Docs Agent - 依赖清单
+# ==========================================
+
+# Web 界面
+streamlit>=1.28.0
+
+# 网页抓取
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# LangChain 核心（现代版本）
+langchain>=0.1.0
+langchain-community>=0.0.20
+langchain-openai>=0.0.5
+langchain-text-splitters>=0.0.1
+langchain-core>=0.1.0
+
+# 向量数据库
+langchain-chroma>=0.1.0
+
+# ==========================================
+# 安装说明
+# ==========================================
+# 1. 安装依赖: pip install -r requirements.txt
+# 2. 设置环境变量:
+#    Windows PowerShell: $env:OPENAI_API_KEY="your-key-here"
+#    Linux/Mac: export OPENAI_API_KEY='your-key-here'
+# 3. 运行应用: streamlit run joern_doc_agent_app.py
+

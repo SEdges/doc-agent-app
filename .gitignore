@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# 环境变量和密钥（重要！）
+.env
+.env.*
+start_app.ps1
+*.key
+*.pem
+
+# 向量数据库
+joern_docs_db/
+*.sqlite3
+*.db
+
+# Streamlit
+.streamlit/
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+desktop.ini
+
+# 临时文件
+*.log
+*.tmp
+*.bak
+*~
+
+# 缓存
+.cache/
+.pytest_cache/
+
